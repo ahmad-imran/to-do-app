@@ -1,0 +1,46 @@
+.body {
+    background-color: #e5e5e5;
+}
+
+.app {
+    width: 300px;
+    height: 500px;
+    border: 5px solid rgb(224, 117, 98);
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+#addnew {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(196, 183, 70);
+    padding: 6px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tasks {
+    display: grid;
+    gap: 15px;
+}
+
+#tasks div {
+
+    background-color: rgb(196, 183, 70);
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    gap: 5px;
+}
+
+.options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+}
+
+i {
+    cursor: pointer;
+}
